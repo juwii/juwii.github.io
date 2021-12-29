@@ -3,75 +3,38 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css" />
     <meta name="viewport" content="width=device=width,
     initial=scale=1.0">
     <!-- Titre de la page-->
     <title>CV Juliette Létondot</title>
-
-    <style>
-        body {margin:0;}
-        
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #333;
-          position: fixed;
-          top: 0;
-          width: 100%;
-        }
-        
-        li {
-          float: left;
-        }
-        
-        li a {
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-        }
-        
-        li a:hover:not(.active) {
-          background-color: #111;
-        }
-        
-        .active {
-          background-color: #04AA6D;
-        }
-
-        h1 {
-            padding-top: 75px;
-        }
-        </style>
 </head>
 
 <body>
     <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="#formation.html">Formation</a></li>
+        <li><a class="active" href="index.html">Profil</a></li>
+        <li><a href="formation.html">Formation</a></li>
         <li><a href="experiences_pro.html">Expériences professionnelles</a></li>
         <li><a href="projets.html">Projets</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
 
+    <div>
+      <img src="profil.jpg" alt="Photo de profil de Juliette Létondot" class="profil" />
+    </div>
+    
     <h1 id="ancre">Juliette Létondot</h1>
+
     <h2>Qui suis-je ?</h2>
 
     <!--modifier comment on affiche les mark--> 
-    <p1>Etudiante en <mark>école d'ingénieurs</mark>, je recherche un <mark>stage d'assistante
-        ingénieure en informatique</mark> de <mark>4 à 5 mois</mark>. Je suis disponible à partir d'avril 2022.<br />
-        Je suis intéressée par le <mark>développement informatique</mark> et la <mark>sécurité informatique</mark>.<br />
-        Je suis passionnée de musique et j'aime créer et apprendre de 
-        nouvelles choses.<br />
-        N'hésitez pas à me contacter à :<br /> 
-        juliette.letondot@etu.imt-nord-europe.fr<br />
-
-        <a href="experiences_pro.html"> Mes expériences</a><br />
-
-        <img src="data:image/jpeg;base64,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" alt="Photo de profil de Juliette Létondot" />
+    <p class="p1">Etudiante en <mark>école d'ingénieurs</mark>, je recherche un <mark>stage d'assistante
+        ingénieure en informatique</mark> de <mark>4 à 5 mois</mark>. Je suis disponible à partir d'avril 2022.
+        Je suis intéressée par le <mark>développement informatique</mark> et la <mark>sécurité informatique</mark>.
+        Je suis passionnée de musique et j'aime créer et apprendre de nouvelles choses.
+        Je joue du violon, de la guitare, un peu de basse et je chante.
+        J'aime apprendre de nouveaux langages et outils techniques.
+        Je découvre la sécurité informatique sur TryHackMe.
     </p1>
     
 </body>
