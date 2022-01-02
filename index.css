@@ -1,5 +1,11 @@
 
-body {margin: 0px;}
+body {
+    margin: 0px;
+    background-image:url(fond.jpg);
+    background-repeat:no-repeat;
+    background-position:50% 100%;
+    background-size: 100% 40%;
+}
 
 mark {
     font-style: normal;
@@ -31,10 +37,10 @@ a:hover /* Apparence au survol des liens */
 
 h1{
     font-size: 2.2em;
-    margin-top: 8%;
+    margin-top: 6%;
     text-align: center;
     cursor: default;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 
 h2{
@@ -62,6 +68,8 @@ p {
     margin-right: 25%;
     font-size: 1.2em;
     text-align: justify;
+
+    margin-bottom: 15%;
 }
 
 ul {
@@ -94,7 +102,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: #06caca;
 }
 
 .fr {
@@ -116,4 +124,11 @@ li a:hover:not(.active) {
 .drapeau_ang {
     width: 5.3em;
     height: auto;
+}
+
+.fond {
+    width: 100%;
+    height: auto;
+    float: center;
+    vertical-align: middle;
 }
