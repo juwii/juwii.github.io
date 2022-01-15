@@ -9,136 +9,104 @@
     <!-- Titre de la page-->
     <title>Formation</title>
 
-    <style>
-        body {margin:0;}
-        
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #333;
-          position: fixed;
-          top: 0;
-          width: 100%;
-        }
-        
-        li {
-          float: left;
-        }
-        
-        li a {
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-        }
-        
-        li a:hover:not(.active) {
-          background-color: #111;
-        }
-        
-        .active {
-          background-color: #04AA6D;
-        }
-
-        h1 {
-            padding-top: 75px;
-        }
-        
-    </style>
-
 </head>
 
 <body>
 
-    <ul>
-        <li><a class="active" href="index.html">Profil</a></li>
-        <li><a href="#formation.html">Formation</a></li>
-        <li><a href="experiences_pro.html">Expériences professionnelles</a></li>
-        <li><a href="projets.html">Projets</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+    <nav>
+        <ul>
+            <li><a href="index.html">Profil</a></li>
+            <li><a class="active" href="#formation.html">Formation</a></li>
+            <li><a href="experiences_pro.html">Expériences professionnelles</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
     <h1>Formation</h1>
-    <h2><a href="https://uqam.ca/">UQAM</a></h2>
-    <h3>Semestre d'échange dans le baccalauréat systèmes informatiques et électroniques</h3>
-    <h4>09/2021-12/2021</h4>
-    <h5>Cours suivis :</h5>
 
-    <!--UQAM ajouter liens vers les cours, échanger uqam et IMT mettre IMT dans l'ordre décroissant spé, tronc, prépa--> 
-    <p1>
-        <u2>
-            <li>Construction et maintenance de logiciels (INF3135)</li><br />
-            <li>Introduction à la sécurité informatique (INF4471)</li><br />
-            <li>Téléinformatique (INF3271)</li><br />
-            <li>Utilisation et administration des systèmes informatiques (INF1070)</li><br />
-            <li>Management (MET2150)</li><br />
-        </u2>
-    </p1>
+    <section>
+        <h2><a href="https://uqam.ca/">UQAM</a></h2>
+        <h3>Semestre d'échange dans le baccalauréat systèmes informatiques et électroniques</h3>
+        <h4>09/2021-12/2021</h4>
+        <h5>Cours suivis :</h5>
+ 
+        <div>
+            <u2>
+                <li>Construction et maintenance de logiciels (INF3135)</li><br />
+                <li>Introduction à la sécurité informatique (INF4471)</li><br />
+                <li>Téléinformatique (INF3271)</li><br />
+                <li>Utilisation et administration des systèmes informatiques (INF1070)</li><br />
+                <li>Management (MET2150)</li><br />
+            </u2>
+        </div>
+    </section>
 
-    <h2><a href="https://imt-nord-europe.fr/">IMT Nord-Europe</a></h2>
-    <h3>Ecole d'ingénieurs généraliste</h3>
-    <h4>09/2018-08/2023</h4>
-    <h5>Cours suivis :</h5>
-    <h6>Prépa intégrée</h6>
-    <!--IMT--> 
-    <p2>
-        <u2>
-            <li>Economie-gestion (comptabilité, économie internationale, jeu d'entreprise)</li><br />
-            <li>Informatique (Programmation en C, algorithmique, introduction aux réseaux, python</li><br />
-            <li>Mathématiques (Analyse, algèbre linéaire, probabilités)</li><br />
-            <li>Physique (optique, mécanique, électrostatique, électromagnétisme, chimie générale, thermodynamique, atomistique)</li><br />
-            <li>Electronique (analyse de circuits, électronique numérique, électronique analogique, design d'interfaces électroniques, 
-                projet objet connecté)</li><br />
-            <li>Langues (anglais LV1, espagnol LV2, chinois LV3)</li><br />
-        </u2>
-    </p2>
+    <section>
+        <h2><a href="https://imt-nord-europe.fr/">IMT Nord-Europe</a></h2>
+        <h3>Ecole d'ingénieurs généraliste</h3>
+        <h4>09/2018-08/2023</h4>
+        <h5>Cours suivis :</h5>
+        <h6>Prépa intégrée</h6>
+        
+        <div>
+            <u2>
+                <li>Economie-gestion (comptabilité, économie internationale, jeu d'entreprise)</li><br />
+                <li>Informatique (Programmation en C, algorithmique, introduction aux réseaux, python</li><br />
+                <li>Mathématiques (Analyse, algèbre linéaire, probabilités)</li><br />
+                <li>Physique (optique, mécanique, électrostatique, électromagnétisme, chimie générale, thermodynamique, atomistique)</li><br />
+                <li>Electronique (analyse de circuits, électronique numérique, électronique analogique, design d'interfaces électroniques, 
+                    projet objet connecté)</li><br />
+                <li>Langues (anglais LV1, espagnol LV2, chinois LV3)</li>
+            </u2>
+        </div>
 
-    <h6>Tronc commun L3</h6>
-    <!--IMT--> 
-    <p2>
-        <u2>
-            <li>Economie-gestion (comptabilité, stratégie des entreprises, management des ressources humaines)</li><br />
-            <li>Informatique (programmation java, réseaux, système de gestion de base de données)</li><br />
-            <li>Langues (Anglais LV1, espagnol LV2, chinois LV3)</li><br />
-            <li>Mathématiques (Analyse-probabilités, théorie du signal, statistique)</li><br />
-            <li>Projet ouvert (veille technologique pour une start-up)</li><br />
-            <li>Modules électifs (Excel avancé, Programmation d'applications mobiles sur plateforme iOS, programmation
-                orientée objet,<br /> introduction aux Télécoms et à la Data, contrôle de systèmes, recherche opérationnelle)</li><br />
-        </u2>
-    </p2>
+        <h6>Tronc commun L3</h6>
+        
+        <div>
+            <u2>
+                <li>Economie-gestion (comptabilité, stratégie des entreprises, management des ressources humaines)</li><br />
+                <li>Informatique (programmation java, réseaux, système de gestion de base de données)</li><br />
+                <li>Langues (Anglais LV1, espagnol LV2, chinois LV3)</li><br />
+                <li>Mathématiques (Analyse-probabilités, théorie du signal, statistique)</li><br />
+                <li>Projet ouvert (veille technologique pour une start-up)</li><br />
+                <li>Modules électifs (Excel avancé, Programmation d'applications mobiles sur plateforme iOS, programmation
+                    orientée objet, introduction aux Télécoms et à la Data, contrôle de systèmes, recherche opérationnelle)</li><br />
+            </u2>
+        </div>
 
-    <h6>Spécialisation numérique</h6>
-    <!--IMT--> 
-    <p2>
-        <u2>
-            <li>Architectures réseaux</li><br />
-            <li>Sécurité, authentification et forensics</li><br />
-        </u2>
-    </p2>
+        <h6>Spécialisation numérique</h6>
+        
+        <div>
+            <u2>
+                <li>Architectures réseaux</li><br />
+                <li>Sécurité, authentification et forensics</li><br />
+            </u2>
+        </div>
+    </section>
 
-    <h2>Compétences</h1>
-    <h3>Informatique :</h2>
+    <section>
+        <h2>Compétences</h1>
+        <h3>Informatique :</h2>
 
-    <p2>
-        <u2>
-            <li>Langages : C, java, python, SQL, Swift, HTML/CSS</li><br />
-            <li>Linux, Scripts bash</li><br />
-            <li>Pack office : Word, Powerpoint, Excel/VBA</li><br />
-            <li>Git</li><br />
-        </u2>
-    </p2>
+        <div>
+            <u2>
+                <li>Langages : C, java, python, SQL, Swift, HTML/CSS</li><br />
+                <li>Linux, Scripts bash</li><br />
+                <li>Pack office : Word, Powerpoint, Excel/VBA</li><br />
+                <li>Git</li><br />
+            </u2>
+        </div>
 
-    <h3>Langues :</h2>
-    <p2>
-        <u2>
-            <li>Français (langue maternelle)</li><br />
-            <li>Anglais (Toeic 955)</li><br />
-            <li>Espagnol (B1)</li><br />
-            <li>Chinois (débutante)</li><br />
-        </u2>
-    </p2>
+        <h3>Langues :</h2>
+        <div>
+            <u2>
+                <li>Français (langue maternelle)</li><br />
+                <li>Anglais (Toeic 955)</li><br />
+                <li>Espagnol (B1)</li><br />
+                <li>Chinois (débutante)</li><br />
+            </u2>
+        </div>
+    </section>
     
 </body>
